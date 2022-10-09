@@ -1,0 +1,50 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+}
+.container .row{
+    width: 85%;
+    margin: auto;
+}
+.container .row .Header{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.content-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+}
+.content-section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    margin: 90px;
+    float: left;
+    margin-right: 205px;
+}
+.Signup{
+    margin-bottom: 50px;
+}
+.terms{
+    margin-right: 150px;
+}
