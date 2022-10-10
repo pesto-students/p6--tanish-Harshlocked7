@@ -1,0 +1,52 @@
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+.blue{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}.yellow{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}.green{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+.red:hover {
+    /* transform: rotate(90deg); */
+transform: rotatez(-0.25turn)
+}
+.blue:hover {
+transform: rotate(-0.25turn);    
+}
+.yellow:hover {
+    transform: rotate(90deg);
+}
+.green:hover {
+    transform: rotate(90deg);
+}
+.container{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 300px;
+}
+
+.container .lower{
+    margin-top: 0px;
+}
